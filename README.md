@@ -1,35 +1,7 @@
 # Snake-And-Apple
 
-This repository contains python based interactive Snake-And-Apple game.
-
-## Installing Snake-And-Apple:
-
-```
-git clone https://github.com/aqeelanwar/Snake-And-Apple.git
-```
-
-## Running Snake-And-Apple:
-```
-cd Snake-And-Apple
-python main.py
-```
-
-<p align="center">
-<img src="/images/preview.gif">
-</p>
-
-## Screenshots
-<p align="center">
-<img width=1000 src="/images/screenshot.png">
-</p>
-
-## Controls
-1. The game begins with snake of length 3 waiting for user input
-2. Keyboard Up, Down, Right, and Left are used to navigate
-3. The result of the game is displayed at the end of the game
-4. Click anywhere on the result screen to play again
-
-
-## Author
-[Aqeel Anwar](https://www.prism.gatech.edu/~manwar8)
-
+This project is for implementing Q_learning and SARSA algorithms for the Snake-And-Apple game.
+The code will first learn Q_table then try its best to get the apple.
+We can't play the full game with these two algorithms. So, we just reach the first apple that appears on the map.
+Something like solving the maze.
+To do the full game, we need to do it with Deep Q_Learning.
